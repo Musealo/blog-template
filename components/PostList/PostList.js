@@ -15,11 +15,8 @@ export function PostList({ posts }) {
 }
 
 const List = styled.ul`
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 60ch;
+  padding: 2rem;
+  margin: 2rem;
   list-style: none;
+  align-items: center;
 `;
